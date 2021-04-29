@@ -1,11 +1,9 @@
 /****** Main Styling ******/
 
 body {
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  color: #222;
-  background-color: #ECF0F1;
   text-align: center;
+  background-color: #32cd32;
 }
 
 .container {
@@ -18,13 +16,11 @@ body {
 }
 
 a {
-  color: #2574A9;
+  color: #2574a9;
 }
 
-input {
-  display: block;
-  position: relative;
-  margin: 10px auto;
+#inputfield {
+  margin-left: 15%;
 }
 
 input#button {
@@ -32,11 +28,16 @@ input#button {
 }
 
 .view {
-  position:relative;
+  position: relative;
   margin: auto;
   margin-top: 40px;
-  border: 1px  solid  #aaa;
+  border: 1px solid #aaa;
   padding: 20px;
   width: 60%;
   min-width: 400px;
+  text-align: center;
+}
+
+.note {
+  margin-top: 85px;
 }
